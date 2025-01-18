@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       
       <div className="flex items-center my-5 ml-2">
-        <Image src="logo_1.png" alt="logo1_img"/>
+        <Image className="object-contain" src="/logo_1.png" alt="logo1_img" width="200" height="500"/>
         <div className="ml-auto">
           <a className="px-10">CONCEPT</a>
           <a className="px-10">MENU</a>
@@ -14,8 +14,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full'>
-        <Image src="mountain.png" alt="mountain" />
+      <div className="object-contain">
+        <Image src="/mountain.png" alt="mountain" width="2000" height="200"/>
       </div>
 
       <div className="text-center mt-20 font-serif">
@@ -35,10 +35,10 @@ export default function Home() {
         <table className="table-auto mx-auto mb-10">
           <thead>
             <tr>
-              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
-              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
-              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
-              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
+              <th className="px-5"><Image src="/product.png" alt="product_img" width="180" height="180"/></th>
+              <th className="px-5"><Image src="/product.png" alt="product_img" width="180" height="180"/></th>
+              <th className="px-5"><Image src="/product.png" alt="product_img" width="180" height="180"/></th>
+              <th className="px-5"><Image src="/product.png" alt="product_img" width="180" height="180"/></th>
             </tr>
           </thead>
 
@@ -79,7 +79,7 @@ export default function Home() {
             <a className="text-white mt-5">ACCESS</a>
           </div>
 
-          <div className="mx-auto mt-28 w-1/3 h-20"><Image src="logo_2.png" alt="logo"/></div>
+          <div className="mx-auto mt-28 w-1/3 h-20"><Image src="/logo_2.png" alt="logo" width="440" height="105"/></div>
 
           <div className="text-white text-center mt-16 text-xl">TEL 01-2345-6789</div>
           <div className="text-white text-center text-xs">OPEN Fri-Sun 11:00~16:00</div>
