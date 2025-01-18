@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       
       <div className="flex items-center my-5 ml-2">
-        <img src="logo_1.png" className=""></img>
+        <Image src="logo_1.png" alt="logo1_img"/>
         <div className="ml-auto">
           <a className="px-10">CONCEPT</a>
           <a className="px-10">MENU</a>
@@ -14,6 +14,7 @@ export default function Home() {
         </div>
       </div>
       <div>
+        <Image src="mountain.png" alt="mountain" />
         <img src="mountain.png"></img>
       </div>
 
@@ -34,10 +35,10 @@ export default function Home() {
         <table className="table-auto mx-auto mb-10">
           <thead>
             <tr>
-              <th className="px-5"><img src="product.png"></img></th>
-              <th className="px-5"><img src="product.png"></img></th>
-              <th className="px-5"><img src="product.png"></img></th>
-              <th className="px-5"><img src="product.png"></img></th>
+              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
+              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
+              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
+              <th className="px-5"><Image src="product.png" alt="product_img"/></th>
             </tr>
           </thead>
 
@@ -77,8 +78,8 @@ export default function Home() {
             <a className="text-white mt-5">SHOP</a>
             <a className="text-white mt-5">ACCESS</a>
           </div>
-          
-          <img src="logo_2.png" className="mx-auto mt-28 w-1/3 h-20"></img>
+
+          <div className="mx-auto mt-28 w-1/3 h-20"><Image src="logo_2.png" alt="logo"/></div>
 
           <div className="text-white text-center mt-16 text-xl">TEL 01-2345-6789</div>
           <div className="text-white text-center text-xs">OPEN Fri-Sun 11:00~16:00</div>
