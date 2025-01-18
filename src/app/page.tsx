@@ -15,7 +15,6 @@ export default function Home() {
       </div>
       <div>
         <Image src="mountain.png" alt="mountain" />
-        <img src="mountain.png"></img>
       </div>
 
       <div className="text-center mt-20 font-serif">
