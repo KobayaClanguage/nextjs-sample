@@ -13,7 +13,8 @@ export default function Home() {
           <a className="px-10">ACCESS</a>
         </div>
       </div>
-      <div>
+
+      <div className='w-full'>
         <Image src="mountain.png" alt="mountain" />
       </div>
 
