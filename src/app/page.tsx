@@ -79,7 +79,7 @@ export default function Home() {
             <a className="text-white mt-5">ACCESS</a>
           </div>
 
-          <div className="mx-auto mt-28 w-1/3 h-20"><Image src="/logo_2.png" alt="logo" width="440" height="200"/></div>
+          <div className="mx-auto mt-28 w-1/4 h-20"><Image src="/logo_2.png" alt="logo" width="500" height="100"/></div>
 
           <div className="text-white text-center mt-16 text-xl">TEL 01-2345-6789</div>
           <div className="text-white text-center text-xs">OPEN Fri-Sun 11:00~16:00</div>
